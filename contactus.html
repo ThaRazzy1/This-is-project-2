@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<title>The Family Spot</title>
+		<link href="resturantStyles.css" rel="stylesheet" type="text/css" />
+		
+		<style>
+	
+			.title {
+				font-family: 'Lobster Two', cursive;
+				background-color: white;
+				}
+				.navigation {
+				background-color: white;
+				}
+				.footer {
+				background-color: white;
+				}
+				a:hover {
+     color: black;
+		font-weight: bold;
+		
+}
+	</style>
+	</head>
+	<body>
+	
+			<center><h1 class="title">The Family Spot</h1></center>
+			<hr />
+			
+	<div class="navigation">
+	
+			<p><a href="home.html">Home</a>
+			<a href="menu.html">Menu</a>
+			<a href="contactus.html">Contact Us</a></p>
+						<hr />
+						
+	</div>
+		<center>
+			
+			<form action="submit.html" method="post">
+				<label for="name">Name:</label>
+					<input type="text" id="name" name="name"><br />
+				<br />	
+				<label for="email">Email:</label>
+					<input type="text" id="email" name="email"><br />
+				<br />	
+				<label for="phone">Phone:</label>
+					<input type="text" id="phone" name="phone"><br />
+				
+			<br />
+				
+				<label for="contact">Reason for inquiry:</label>
+					<select id="contact" name="contact">
+					<option value="default" selected>Catering</option>
+					<option value="private party">Private party</option>
+					<option value="feedback">Feedback</option>
+					<option value="other">Other</option>
+				</select><br />
+				
+			<br />
+				<label for="info">Additional Information:</label>
+					<textarea id="info"></textarea><br />
+				
+			<br />	
+					<legend>Have you been to our resturant?</legend>
+						<input type="radio" id="choice1" name="questionnaire" value="no">
+							<label for="choice1">No</label>
+						<input type="radio" id="choice2" name="questionnaire" value="yes">
+							<label for="choice2">Yes</label><br />
+			<br />				
+					
+				<legend>Best days to contact you?</legend>
+				<input type="checkbox" id="M" name="interest" value="M">
+				<label for="frontEnd">M</label>
+				<input type="checkbox" id="T" name="interest" value="T">
+				<label for="backEnd">T</label>
+				<input type="checkbox" id="W" name="interest" value="W">
+				<label for="database">W</label>
+				<input type="checkbox" id="Th" name="interest" value="Th">
+				<label for="frontEnd">Th</label>
+				<input type="checkbox" id="F" name="interest" value="F">
+				<label for="frontEnd">F</label><br />
+				
+			<br />	
+				<input type="submit" name="send request" value="Send Request">
+			</form>					
+		<hr />
+		
+			<div class="footer">
+				<center><p>13712 Ghia St. NE, Ham Lake, 55304</p>
+				<p>763-951-3051</p></center>
+			</footer>
+		<hr />	
+		</center>	
+	</body>
+</html>
